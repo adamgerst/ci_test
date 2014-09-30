@@ -1,6 +1,6 @@
 <?php
-require __DIR__.'/../vendor/autoload.php';
-require __DIR__.'/../main/Math.php';
+require realpath(__DIR__.'/../vendor/autoload.php');
+require realpath(__DIR__.'/../main/Math.php');
 
 class MathTest extends PHPUnit_Framework_TestCase {
 
